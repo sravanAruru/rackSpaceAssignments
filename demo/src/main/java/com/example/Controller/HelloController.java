@@ -23,7 +23,7 @@ public class HelloController {
 
         HashMap<String, String> map = new HashMap<>();
         String reversedString = helperService.getReverseString(inputString);
-        map.put("reversed string", reversedString);
+        map.put("reversed", reversedString);
         return map;
     }
 
